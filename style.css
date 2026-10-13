@@ -1,3 +1,7 @@
+*{
+  font-family: 'Inter', sans-serif !important;
+}
+
 #cabecalho{
     display: block;
     justify-content: center;
@@ -10,12 +14,28 @@
 h1{
     font-family:Inconsolata;
     font-size: 800%;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     margin: 10px 0px 10px 0px;
 }
 
-.bordas-redondas{
+#sobre-mim{
+    border-top: 2px solid #d4af37;
+    border-bottom: 2px solid #d4af37;
     width: 100%;
+    background-color: #1c2541;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#sobre-mim p{
+    font-family: Inter;
+    font-size: 170%;
+    padding: 20px 40px 20px 40px;
+  
+}
+
+.bordas-redondas{
+    width: 90%;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 80px;
     padding: 10px;
@@ -33,22 +53,24 @@ h1{
     justify-content: center;
     min-height:10%;
     align-items: center;
-    padding: 0 3% 0 3%;
+    padding: 0 2% 0 2%;
+    margin:0px;
 }
 
 .estilo-fonte button{
     font-family: inconsolata;
-    font-size:700%;
-    background-color: rgb(255, 255, 255);
-    border:none;
+    font-size:650%;
+    background-color: #1c2541;
+    color: #ffffff;
+    border:1px solid #f4d03f ;
     transition: background-color 0.3s ease;
     width: 100%;
     border-radius: 80px;
 }
 
 button:hover{
-    background-color: rgb(85, 110, 255);
-    color: rgb(255, 255, 255);
+    background-color: #f4d03f;
+    color: rgb(0, 0, 0);
 }
 .estilo-fonte button{
     font-family: inconsolata;
