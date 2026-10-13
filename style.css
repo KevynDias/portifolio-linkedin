@@ -1,0 +1,56 @@
+#cabecalho{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 70%;
+    align-items: center;
+}
+
+h1{
+    font-family:Inconsolata;
+    font-size: 800%;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px 10px 0px;
+}
+
+.bordas-redondas{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px;
+    padding:0px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+
+.estilo-fonte{
+    display: flex;
+    justify-content: center;
+    min-height:10%;
+    align-items: center;
+    padding: 0 3% 0 3%;
+}
+
+.estilo-fonte button{
+    font-family: inconsolata;
+    font-size:700%;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    border-radius: 80px;
+}
+
+button:hover{
+    background-color: rgb(85, 110, 255);
+    color: rgb(255, 255, 255);
+}
+.estilo-fonte button{
+    font-family: inconsolata;
+    text-decoration: none;
+}
